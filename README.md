@@ -1,16 +1,20 @@
-# React + Vite
+# GR Tales Of Nails
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive website built for a professional nail salon. This project provides a seamless digital experience for clients to explore services,see pricing ,view gallery highlights, and get in touch.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+https://grtailsofnails.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Tech Stack
+**Frontend:** React.js
+**Styling:** Tailwind CSS (for a clean, modern, and mobile-first UI)
+**Deployment:** Netlify 
 
-## React Compiler
+## ✨ Key Features
+**Responsive Design:** Fully optimized for mobile, tablet, and desktop screens.
+**Service Showcase:** Intuitive layout to display nail care services and pricing.
+**Modern UI:** Focused on aesthetics, utilizing a professional color palette to match the salon's branding.
+**Interactive Components:** Smooth navigation and user-friendly interaction patterns.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project helped me deepen my knowledge in React component structure and Tailwind CSS utility-first styling. 
+I focused on creating a reusable component architecture to ensure the code remains clean, scalable, and easy to maintain.
