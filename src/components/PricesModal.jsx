@@ -3,36 +3,51 @@ function PricesModal({ closeModal }) {
     {
       category: "Μανικιούρ",
       service: [
-        { name: "Απλο Μανικιουρ", price: "15€" },
-        { name: "Ημιμόνιμο Μανικιούρ (Απλή Βάση)", price: "20€" },
-        { name: "Ημιμόνιμο Μανικιούρ (Ενισχυμένη Βάση)", price: "22€" },
+        { name: "Απλο", price: "15€" },
+        { name: "Ημιμόνιμο", price: "20€" },
+        { name: "Ενισχυμένη Βάση", price: "22€" },
+        { name: "Ενισχυμένο με σταγόνα", price: "25€" },
+        { name: "Express απλό βερνίκι (σχήμα-χρώμα)", price: "10€" },
+        { name: "Express ημιμόνιμο (σχήμα-χρώμα)", price: "15€" },
+        { name: "Express ημιμόνιμο ενισχυμένο (σχήμα-χρώμα)", price: "18€" },
       ],
     },
     {
       category: "Πεντικιούρ ",
       service: [
-        { name: "Πεντικιούρ Απλο", price: "20€" },
-        { name: "Πεντικιούρ Ημιμόνιμο", price: "25€" },
-        { name: "Θεραπευτικό", price: "30€" },
+        { name: "Απλο", price: "20€" },
+        { name: "Ημιμόνιμο", price: "25€" },
+        { name: "Θεραπευτικό απλό", price: "25€" },
+        { name: "Θεραπευτικό ημιμόνιμο", price: "30€" },
         { name: "Spa", price: "35€" },
+        { name: "Express απλό βερνίκι (σχήμα-χρώμα)", price: "15€" },
+        { name: "Express ημιμόνιμο (σχήμα-χρώμα)", price: "18€" },
       ],
     },
     {
-      category: "Τεχνητά",
+      category: "Επιπρόσθετες Υπηρεσίες",
       service: [
-        { name: "Συντήρηση", price: "35€" },
-        { name: "Τοποθέτηση", price: "40€" },
-        { name: "Συντήρηση", price: "35€" },
-        { name: "Τοποθέτηση", price: "40€" },
+        { name: "Τοποθέτηση Acrygel", price: "Από 40€" },
+        { name: "Συντήρηση Acrygel", price: "35€" },
+        { name: "Τοποθέτηση Ακρυλικού", price: "Από 40€" },
+        { name: "Συντήρηση Ακρυλικού", price: "35€" },
+        { name: "Τοποθέτηση Gel", price: "Από 40€" },
+        { name: "Συντήρηση Gel", price: "35€" },
+
+        { name: "Επιμήκυνση νυχιού με φόρμα", price: "+ 3€" },
+        { name: "Γαλλικό", price: "+ 3€" },
+        { name: "Ombre", price: "+ 3€" },
+        { name: "Σκόνες", price: "+ 3€" },
+        { name: "Σχέδιο", price: "Απο 2€" },
       ],
     },
     {
-      category: "Αποτρίχωση",
+      category: "Αποτρίχωση Προσώπου",
       service: [
-        { name: "Καθαρισμός Φρυδιων", price: "7€" },
-        { name: "Σχηματισμός Φρυδιών", price: "10€" },
-        { name: "Μουστάκι", price: "5€" },
-        { name: "Ολο το πρόσωπο", price: "20€" },
+        { name: "Καθαρισμός και σχήμα φρυδιού", price: "Απο 8€" },
+        { name: "Ανω χείλος", price: "7€" },
+        { name: "Παρειές", price: "7€" },
+        { name: "Ολο το πρόσωπο", price: "23€" },
       ],
     },
   ];
@@ -61,7 +76,6 @@ function PricesModal({ closeModal }) {
               <h3 className="text-text-color border-primary-hover/50 mb-4 text-xl font-bold underline underline-offset-7">
                 {categoryName.category}
               </h3>
-            
 
               <ul className="flex flex-col gap-4">
                 {categoryName.service.map((service, i) => (

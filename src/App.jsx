@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <NavBar />
+      <NavBar showModal={() => setModalVisible(true)} />
       <section id="home" className="scroll-mt-24">
         <Home />
       </section>
@@ -34,7 +34,7 @@ function App() {
       </section>
 
       <a href="#home" className=" ">
-        <IoIosArrowUp className="text-text-color bg-secondary fixed bottom-2 right-2 ml-auto flex h-10 w-10 justify-end rounded-2xl border text-3xl" />
+        <IoIosArrowUp className="text-text-color bg-secondary/60  fixed right-3 bottom-3 ml-auto flex h-10 w-10 justify-end rounded-2xl border text-3xl" />
       </a>
 
       <Footer />

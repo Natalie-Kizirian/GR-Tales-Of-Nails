@@ -6,10 +6,10 @@ function Contact() {
   const titleStyle = "lg:text-xl font-semibold text-md text-center";
   const iconStyle = "text-xl";
   const cardStyles =
-    "bg-white-color border-secondary flex w-full flex-col gap-2 rounded-2xl border p-4 drop-shadow-xl h-full";
+    "bg-white-color border-secondary flex w-full flex-col gap-2 rounded-2xl border p-4 drop-shadow-xl h-full md:w-6/8";
   return (
     <>
-      <h1 className="pt-5 text-center text-xl font-bold border-t">
+      <h1 className="border-t pt-5 text-center text-xl font-bold">
         Επικοινωνήστε Μαζί Μας
       </h1>
 
@@ -17,7 +17,7 @@ function Contact() {
         <div className={cardStyles}>
           <h2 className={titleStyle}>Τηλεφωνο Επικοινωνίας</h2>
 
-          <p className="text-center">2131234567</p>
+          <p className="text-center">21 3048 0798</p>
         </div>
 
         <div className={cardStyles}>
@@ -63,7 +63,7 @@ function Contact() {
           </div>
 
           <iframe
-            className="rounded-2xl border border-gray-400 h-50"
+            className="h-50 rounded-2xl border border-gray-400"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12580.126031805647!2d23.64422!3d37.976394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bb4b96ab4a8d%3A0x3a50198a66a328c7!2sGR%20Tales%20of%20Nails!5e0!3m2!1sel!2sgr!4v1764107389480!5m2!1sel!2sgr"
             loading="lazy"
           ></iframe>

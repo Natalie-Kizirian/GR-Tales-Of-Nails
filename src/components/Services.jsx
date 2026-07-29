@@ -1,6 +1,6 @@
-
-function Services({showModal}) {
-  const cardStyles = "bg-[#DFD4CA] rounded-xl p-3 w-full pb-8 shadow-xl";
+function Services({ showModal }) {
+  const cardStyles =
+    "bg-[#DFD4CA] rounded-xl p-3 w-full pb-10 shadow-xl md:w-6/8 m-auto";
   const titleStyles = "text-lg font-semibold border-b mb-2";
   return (
     <>
@@ -34,10 +34,7 @@ function Services({showModal}) {
           </div>
         </div>
 
-        <button
-          onClick={showModal}
-          className="button-secondary"
-        >
+        <button onClick={showModal} className="button-secondary">
           Δείτε Περισσότερα
         </button>
       </div>

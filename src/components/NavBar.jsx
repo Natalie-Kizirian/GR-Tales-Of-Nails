@@ -1,19 +1,19 @@
 import { useState } from "react";
 
-function NavBar() {
+function NavBar({ showModal }) {
   const [activeMenu, setActiveMenu] = useState(false);
   const linkStyles =
-    "hover:text-primary px-2 md:px-6 py-2  hover:rounded-md hover:bg-[#F5F1EE] transition-all duration-300 whitespace-nowrap";
+    "hover:text-primary px-2 md:px-6 py-2 cursor-pointer rounded-xl hover:rounded-md hover:bg-[#F5F1EE] transition-all duration-300 whitespace-nowrap";
   return (
     <>
-      <header className="bg-primary lg:bg-white-color/90 sticky top-0 z-20 flex w-full items-center justify-between p-3 shadow-lg md:flex-row px-10">
-        <div className="flex items-center gap-3">
+      <header className="bg-primary lg:bg-white-color/90 sticky top-0 z-20 flex w-full items-center justify-between gap-3 p-3 px-10 shadow-lg md:flex-row">
+        <div className="flex items-center">
           <img
             className="h-16 w-16 md:h-20 md:w-20"
             src="./gr-logo.png"
             alt="Logo"
           />
-          <div className="hidden lg:block">
+          <div className="hidden px-2 lg:block">
             <h2 className="font-alegreya text-xl font-light md:text-2xl">
               Gr Tails Of Nails{" "}
             </h2>
@@ -21,7 +21,7 @@ function NavBar() {
             <h2 className="font-alegreya text-lg font-light">Nail Salon</h2>
           </div>
         </div>
-        <div className="hidden w-full flex-col items-center justify-between gap-3 md:w-auto md:flex-row md:gap-5 lg:flex ">
+        <div className="hidden w-full flex-col items-center justify-between gap-3 md:w-auto md:flex-row md:gap-5 lg:flex">
           <div className="flex items-center gap-2 text-sm md:text-lg">
             <a href="#home" className={linkStyles}>
               Αρχική
@@ -35,8 +35,10 @@ function NavBar() {
             <a href="#contact" className={linkStyles}>
               Επικοινωνία
             </a>
+            <p onClick={showModal} className={linkStyles}>
+              Τιμοκατάλογος
+            </p>
           </div>
-         
         </div>
 
         {/* Mobile Menu Button */}
@@ -92,6 +94,9 @@ function NavBar() {
         >
           Επικοινωνία
         </a>
+        <p onClick={showModal} className={`${linkStyles} border-b`}>
+          Τιμοκατάλογος
+        </p>
       </div>
     </>
   );

@@ -7,8 +7,8 @@ function Footer() {
   const secondaryText = "text-sm font-light lg:text-lg";
   return (
     <>
-      <div className="bg-secondary w-full p-4 shadow-inner ring-inset">
-        <div className="flex flex-col items-center justify-center border-b">
+      <div className="bg-secondary w-full p-4 shadow-inner ">
+        <div className="flex flex-col items-center justify-center border-b ">
           <img
             className="h-16 w-16 md:h-20 md:w-20"
             src="./gr-logo.png"
@@ -25,7 +25,7 @@ function Footer() {
             <p className={`${secondaryText} font-normal`}>
               Επικοινωνήστε Μαζί Μας
             </p>
-            <p className={secondaryText}>213123132</p>
+            <p className={secondaryText}>21 3048 0798</p>
           </div>
 
           <div>
