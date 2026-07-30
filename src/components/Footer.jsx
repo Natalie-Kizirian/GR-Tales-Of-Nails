@@ -7,8 +7,8 @@ function Footer() {
   const secondaryText = "text-sm font-light lg:text-lg";
   return (
     <>
-      <div className="bg-secondary w-full p-4 shadow-inner ">
-        <div className="flex flex-col items-center justify-center border-b ">
+      <div className="bg-secondary w-full p-4 shadow-inner ring-inset">
+        <div className="flex flex-col items-center justify-center border-b">
           <img
             className="h-16 w-16 md:h-20 md:w-20"
             src="./gr-logo.png"
@@ -16,11 +16,11 @@ function Footer() {
           />
 
           <h2 className="font-alegreya text-xl font-light md:text-2xl">
-            Gr Tails Of Nails{" "}
+            Gr Tales  Of Nails{" "}
           </h2>
         </div>
 
-        <div className="mt-2 flex flex-col gap-5 p-9 text-center lg:flex-row lg:justify-around">
+        <div className="mt-2 flex flex-col gap-5 p-9 text-center lg:justify-around">
           <div>
             <p className={`${secondaryText} font-normal`}>
               Επικοινωνήστε Μαζί Μας

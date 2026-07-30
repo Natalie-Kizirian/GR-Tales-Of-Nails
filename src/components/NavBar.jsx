@@ -15,7 +15,7 @@ function NavBar({ showModal }) {
           />
           <div className="hidden px-2 lg:block">
             <h2 className="font-alegreya text-xl font-light md:text-2xl">
-              Gr Tails Of Nails{" "}
+              Gr Tales Of Nails{" "}
             </h2>
 
             <h2 className="font-alegreya text-lg font-light">Nail Salon</h2>
