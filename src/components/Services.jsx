@@ -1,6 +1,6 @@
 function Services({ showModal }) {
   const cardStyles =
-    "bg-[#DFD4CA] rounded-xl p-3 w-full pb-10 shadow-xl md:w-6/8 m-auto";
+    "bg-[#DFD4CA] rounded-xl p-3 w-full  shadow-xl md:w-6/8 pb-10 ";
   const titleStyles = "text-lg font-semibold border-b mb-2";
   return (
     <>
