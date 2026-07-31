@@ -1,6 +1,6 @@
 function Services({ showModal }) {
   const cardStyles =
-    "bg-[#DFD4CA] rounded-xl p-3 w-full  shadow-xl md:w-6/8 pb-10 ";
+    "bg-[#DFD4CA] rounded-xl p-3 w-full  shadow-xl md:w-6/8 pb-10 h-40";
   const titleStyles = "text-lg font-semibold border-b mb-2";
   return (
     <>
@@ -9,7 +9,7 @@ function Services({ showModal }) {
           Οι υπηρεσίες μας
         </h1>
         {/* Card Container */}
-        <div className="flex flex-col gap-4 p-2 lg:flex-row">
+        <div className="flex flex-col items-center gap-4 p-2 lg:flex-row">
           <div className={cardStyles}>
             <h2 className={titleStyles}>Μανικιούρ</h2>
             <p>
