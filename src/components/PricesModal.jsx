@@ -3,7 +3,7 @@ function PricesModal({ closeModal }) {
     {
       category: "Μανικιούρ",
       service: [
-        { name: "Απλο", price: "15€" },
+        { name: "Απλό", price: "15€" },
         { name: "Ημιμόνιμο", price: "20€" },
         { name: "Ενισχυμένη Βάση", price: "22€" },
         { name: "Ενισχυμένο με σταγόνα", price: "25€" },
@@ -13,9 +13,9 @@ function PricesModal({ closeModal }) {
       ],
     },
     {
-      category: "Πεντικιούρ ",
+      category: "Πεντικιούρ",
       service: [
-        { name: "Απλο", price: "20€" },
+        { name: "Απλό", price: "20€" },
         { name: "Ημιμόνιμο", price: "25€" },
         { name: "Θεραπευτικό απλό", price: "25€" },
         { name: "Θεραπευτικό ημιμόνιμο", price: "30€" },
@@ -38,16 +38,16 @@ function PricesModal({ closeModal }) {
         { name: "Γαλλικό", price: "+ 3€" },
         { name: "Ombre", price: "+ 3€" },
         { name: "Σκόνες", price: "+ 3€" },
-        { name: "Σχέδιο", price: "Απο 2€" },
+        { name: "Σχέδιο", price: "Από 2€" },
       ],
     },
     {
       category: "Αποτρίχωση Προσώπου",
       service: [
-        { name: "Καθαρισμός και σχήμα φρυδιού", price: "Απο 8€" },
-        { name: "Ανω χείλος", price: "7€" },
+        { name: "Καθαρισμός και σχήμα φρυδιού", price: "Από 8€" },
+        { name: "Άνω χείλος", price: "7€" },
         { name: "Παρειές", price: "7€" },
-        { name: "Ολο το πρόσωπο", price: "23€" },
+        { name: "Όλο το πρόσωπο", price: "23€" },
       ],
     },
   ];

@@ -10,7 +10,7 @@ function NavBar({ showModal }) {
         <div className="flex items-center">
           <img
             className="h-16 w-16 md:h-20 md:w-20"
-            src="./gr-logo.png"
+            src="./gr-logo2.png"
             alt="Logo"
           />
           <div className="hidden px-2 lg:block">
