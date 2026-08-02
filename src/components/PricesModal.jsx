@@ -57,9 +57,9 @@ function PricesModal({ closeModal }) {
         onClick={closeModal}
         className="fixed inset-0 z-20 h-full w-full bg-black opacity-65"
       ></div>
-      <div className="bg-secondary fixed top-20 left-1/2 z-80 max-h-[80vh] -translate-x-1/2 overflow-y-auto rounded-lg p-3 drop-shadow-lg min-[320px]:w-[95vw] lg:w-1/2 [&::-webkit-scrollbar]:hidden">
+      <div className="bg-secondary fixed top-20 left-1/2 z-80 max-h-[80vh] -translate-x-1/2 overflow-y-auto rounded-lg drop-shadow-lg min-[320px]:w-[95vw] lg:w-1/2 [&::-webkit-scrollbar]:hidden">
         {/* Head */}
-        <div className="flex items-center justify-between pb-4">
+        <div className="bg-primary-dark/80 sticky top-0 flex items-center justify-between rounded-b-sm p-3 font-semibold shadow-2xl">
           <h1 className="m-auto text-center text-xl">Τιμοκαταλογος</h1>
           <button
             onClick={closeModal}
@@ -70,7 +70,7 @@ function PricesModal({ closeModal }) {
         </div>
 
         {/* Prices By Category */}
-        <div>
+        <div className="p-3">
           {priceList.map((categoryName, index) => (
             <div key={index} className="mb-10">
               <h3 className="text-text-color border-primary-hover/50 mb-4 text-xl font-bold underline underline-offset-7">
